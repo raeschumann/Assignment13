@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlooked Women in History</title>
+    
+    <!-- INTERNAL STYLE SHEET (15 pts) -->
+    <style>
+        /* 1. LAYOUT (25 pts): CSS Grid for side-by-side layout */
+        .layout-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .wall-of-text {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .styled-version {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        /* 5 TEXT STYLING TECHNIQUES */
+        
+        /* Technique 1: Alternate text alignment (Center alignment) */
+        .center-align {
+            text-align: center;
+        }
+
+        /* Technique 2: Horizontal rules */
+        hr.custom-hr {
+            border: 0;
+            height: 2px;
+            background-color: #3498db;
+            margin: 30px 0;
+        }
+
+        /* Technique 3: Bolding (especially bolding keywords) */
+        .styled-version strong {
+            color: #2c3e50;
+            font-size: 1.05em;
+        }
+
+        /* Technique 4: Background colors to highlight keywords/phrases */
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        /* Technique 5: Pull quotes (also creates varying paragraph width as text wraps) */
+        .pull-quote {
+            float: right;
+            width: 35%;
+            margin: 0 0 15px 20px;
+            padding: 15px;
+            font-size: 1.1em;
+            font-style: italic;
+            background-color: #e8f4f8;
+            border-left: 4px solid #3498db;
+        }
+
+        /* Visuals Styling */
+        .visual-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 ratio */
+            height: 0;
+            margin: 20px 0;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* APA Formatting */
+        .apa-reference {
+            padding-left: 36px; 
+            text-indent: -36px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+<div class="layout-container">
+        
+        <!-- LEFT COLUMN: THE WALL OF TEXT  -->
+        <div class="wall-of-text">
+            <h1>Overlooked Women in History</h1>
+            
+            <h2>Artemisia Gentileschi</h2>
+            <p>Artemisia Gentileschi was an Italian Baroque painter and the first woman admitted to the Accademia di Arte del Disegno in Florence. Despite facing severe personal trauma and societal barriers in the seventeenth century, she produced powerful and dynamic artwork. Her masterful use of chiaroscuro rivaled that of Caravaggio, influencing an entire generation of artists. For centuries, her technical mastery was often overshadowed by her male contemporaries or reduced to mere biographical footnotes.</p>
+
+            <h2>Hedy Lamarr</h2>
+            <p>While widely celebrated as a glamorous Hollywood actress, Hedy Lamarr was also a brilliant and completely self-taught inventor. During World War II, she co-developed a radio guidance system intended to prevent enemies from jamming Allied torpedoes. Her pioneering work in frequency-hopping spread spectrum technology laid the vital scientific groundwork for modern Wi-Fi and Bluetooth. Because the military initially dismissed her ideas, this massive contribution to modern communication went completely unrecognized for decades.</p>
+
+            <h2>Rosalind Franklin</h2>
+            <p>Rosalind Franklin was an English chemist whose X-ray diffraction images of DNA were instrumental in discovering the double helix structure. She captured the famous "Photo 51," which provided the essential visual evidence needed to understand DNA's complex shape. Unfortunately, James Watson and Francis Crick gained access to her unpublished data without her direct knowledge or permission. While they were later awarded the Nobel Prize for the discovery, Franklin passed away before receiving her rightful recognition. Today, she is properly celebrated as a crucial cornerstone of modern molecular biology and genetics.</p>
+
+            <h2>Mary Anning</h2>
+            <p>Mary Anning was a pioneering, self-taught paleontologist who hunted for fossils along the rugged Jurassic Coast in England. When she was just twelve years old, she discovered the first correctly identified ichthyosaur skeleton. Her groundbreaking nineteenth-century discoveries fundamentally changed how scientists thought about prehistoric life and the concept of extinction. Despite providing the physical evidence that shaped early paleontology, she was barred from joining the Geological Society of London due to her gender.</p>
+
+            <h2>Sybil Ludington</h2>
+            <p>Sybil Ludington is often referred to as the female Paul Revere for her heroic actions during the American Revolutionary War. At just sixteen years old, she rode her horse over forty miles through the night in a driving rainstorm. Her mission was to alert the local colonial militia forces that British troops were approaching Danbury, Connecticut. Even though her ride was significantly longer and far more treacherous than Revere's, her name remains largely absent from standard history textbooks.</p>
+
+            <h2>Henrietta Lacks</h2>
+            <p>Henrietta Lacks was an African American woman whose cancer cells were taken without her knowledge or consent during a medical biopsy in 1951. These unique samples formed the HeLa immortal cell line, which possessed the rare ability to survive and multiply infinitely in a laboratory setting. Her cells became one of the most crucial tools in modern medicine, contributing directly to the polio vaccine, cancer treatments, and early gene mapping. While biotechnology companies generated massive profits from her biological material, her own family remained completely unaware and uncompensated for decades.</p>
+
+            <h2>Ada Lovelace</h2>
+            <p>Ada Lovelace was an English mathematician and writer who is widely considered to be the very first computer programmer. She worked closely alongside Charles Babbage on his proposed mechanical general-purpose computer, the Analytical Engine. She recognized that the machine had powerful applications far beyond pure calculation and number crunching. Consequently, she published the first algorithm intended to be carried out by such a machine.</p>
+
+            <h2>Chien-Shiung Wu</h2>
+            <p>Chien-Shiung Wu was a pioneering Chinese-American physicist who made massive contributions in the complex field of nuclear physics. She conducted the famous Wu experiment, which proved conclusively that parity is not conserved in weak nuclear interactions. Although her male colleagues won the Nobel Prize for this exact discovery, she was unjustly excluded from the award. Today, she is remembered as the First Lady of Physics and a brilliant mind who deserved much better from the scientific community.</p>
+        </div>
+
+        <!-- RIGHT COLUMN: THE STYLED VERSION (15 pts styling + 10 pts visuals) -->
+        <div class="styled-version">
+            <!-- Technique 1: Alternate text alignment -->
+            <h1 class="center-align">Overlooked Women in History</h1>
+            <!-- Technique 2: Horizontal rule -->
+            <hr class="custom-hr">
+            
+            <h2>Artemisia Gentileschi</h2>
+            <!-- Visual Requirement 1: Hosted Image -->
+            <img class="visual-img" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/250px-Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="Artemisia Gentileschi painting">
+            <p>Artemisia Gentileschi was an Italian Baroque painter and the first woman admitted to the Accademia di Arte del Disegno in Florence. <span class="highlight">Despite facing severe personal trauma and societal barriers</span> in the seventeenth century, she produced powerful and dynamic artwork. Her masterful use of chiaroscuro rivaled that of Caravaggio, influencing an entire generation of artists. For centuries, her technical mastery was often overshadowed by her male contemporaries or reduced to mere biographical footnotes.</p>
+            
+            <hr class="custom-hr">
+
+            <h2>Hedy Lamarr</h2>
+           <!-- Visual Requirement 2: Embedded YouTube Video -->
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/g2_Ti67COfw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+            <!-- Technique 5: Pull quote (also forces paragraph wrapping/varying width) -->
+            <div class="pull-quote">"Because the military initially dismissed her ideas, this massive contribution went completely unrecognized for decades."</div>
+            <p>While widely celebrated as a glamorous Hollywood actress, Hedy Lamarr was also a <strong>brilliant and completely self-taught inventor</strong>. During World War II, she co-developed a radio guidance system intended to prevent enemies from jamming Allied torpedoes. Her pioneering work in frequency-hopping spread spectrum technology laid the vital scientific groundwork for modern Wi-Fi and Bluetooth. Because the military initially dismissed her ideas, this massive contribution to modern communication went completely unrecognized for decades.</p>
+
+            <hr class="custom-hr">
+
+            <h2>Rosalind Franklin</h2>
+            <p>Rosalind Franklin was an English chemist whose X-ray diffraction images of DNA were instrumental in discovering the double helix structure. She captured the famous <strong>"Photo 51,"</strong> which provided the essential visual evidence needed to understand DNA's complex shape. Unfortunately, James Watson and Francis Crick gained access to her unpublished data without her direct knowledge or permission. While they were later awarded the Nobel Prize for the discovery, Franklin passed away before receiving her rightful recognition. Today, she is properly celebrated as a crucial cornerstone of modern molecular biology and genetics.</p>
+
+            <hr class="custom-hr">
+
+            <h2>Mary Anning</h2>
+            <p>Mary Anning was a pioneering, self-taught paleontologist who hunted for fossils along the rugged Jurassic Coast in England. When she was just twelve years old, she discovered the first correctly identified <strong>ichthyosaur skeleton</strong>. <span class="highlight">Her groundbreaking nineteenth-century discoveries fundamentally changed how scientists thought</span> about prehistoric life and the concept of extinction. Despite providing the physical evidence that shaped early paleontology, she was barred from joining the Geological Society of London due to her gender.</p>
+
+            <hr class="custom-hr">
+
+            <h2>Sybil Ludington</h2>
+            <p>Sybil Ludington is often referred to as the female Paul Revere for her heroic actions during the American Revolutionary War. At just sixteen years old, she rode her horse over forty miles through the night in a driving rainstorm. Her mission was to alert the local colonial militia forces that British troops were approaching Danbury, Connecticut. Even though her ride was significantly longer and far more treacherous than Revere's, her name remains largely absent from standard history textbooks.</p>
+
+            <hr class="custom-hr">
+
+            <h2>Henrietta Lacks</h2>
+            <p>Henrietta Lacks was an African American woman whose cancer cells were taken without her knowledge or consent during a medical biopsy in 1951. These unique samples formed the <strong>HeLa immortal cell line</strong>, which possessed the rare ability to survive and multiply infinitely in a laboratory setting. Her cells became one of the most crucial tools in modern medicine, contributing directly to the polio vaccine, cancer treatments, and early gene mapping. While biotechnology companies generated massive profits from her biological material, her own family remained completely unaware and uncompensated for decades.</p>
+
+            <hr class="custom-hr">
+
+            <h2>Ada Lovelace</h2>
+            <p>Ada Lovelace was an English mathematician and writer who is widely considered to be the very first computer programmer. She worked closely alongside Charles Babbage on his proposed mechanical general-purpose computer, the <strong>Analytical Engine</strong>. She recognized that the machine had powerful applications far beyond pure calculation and number crunching. Consequently, she published the first algorithm intended to be carried out by such a machine.</p>
+
+            <hr class="custom-hr">
+
+            <h2>Chien-Shiung Wu</h2>
+            <p>Chien-Shiung Wu was a pioneering Chinese-American physicist who made massive contributions in the complex field of nuclear physics. She conducted the famous <span class="highlight">Wu experiment</span>, which proved conclusively that parity is not conserved in weak nuclear interactions. Although her male colleagues won the Nobel Prize for this exact discovery, she was unjustly excluded from the award. Today, she is remembered as the First Lady of Physics and a brilliant mind who deserved much better from the scientific community (Google, 2026).</p>
+            
+            <hr class="custom-hr">
+            
+            <!-- APA References Section -->
+            <h2>References</h2>
+            <p class="apa-reference">Google. (2026). <em>Gemini</em> (November 21 version) [Large language model]. https://gemini.google.com</p>
+        </div>
+    </div>
+
+</body>
+</html>
